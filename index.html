@@ -213,6 +213,7 @@
                 context.globalAlpha = 1 - this.age / settings.particles.duration;
 
                 context.drawImage(image, this.position.x - size / 2, this.position.y - size / 2, size, size);
+                context.drawImage(image, this.position.x - size, this.position.y - size, size, size);
                 
                 for (var j = 0; j < 2; j++) {
                         var randx = Math.floor(Math.random() * 20);
