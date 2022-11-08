@@ -213,18 +213,17 @@
                 context.globalAlpha = 1 - this.age / settings.particles.duration;
 
                 context.drawImage(image, this.position.x - size / 2, this.position.y - size / 2, size, size);
-
-                //
+                
                 for (var j = 0; j < 2; j++) {
                         var randx = Math.floor(Math.random() * 20);
                         var randy = Math.floor(Math.random() * 20);
                         var x = this.position.x + randx;
                         var y = this.position.y + randy;
                         context.beginPath();
-                        context.fillStyle = "#ff0000"; //blue
+                        context.fillStyle = "#db1d1d"; //blue
                         context.shadowBlur=4;
                         context.shadowColor="white";
-                        context.arc(x,y,1,0,Math.PI*2,true);
+                        context.arc(x,y,1.5,0,Math.PI*2,true);
                         context.fill();
                         context.closePath();
                 }
@@ -235,10 +234,10 @@
                         var x = this.position.x + randx;
                         var y = this.position.y + randy;
                         context.beginPath();
-                        context.fillStyle = "#ff0000"; //blue
+                        context.fillStyle = "#db1d1d"; //blue
                         context.shadowBlur=4;
                         context.shadowColor="white";
-                        context.arc(x,y,1,0,Math.PI*2,true);
+                        context.arc(x,y,1.5,0,Math.PI*2,true);
                         context.fill();
                         context.closePath();
                 }
@@ -249,10 +248,10 @@
                         var x = this.position.x + randx;
                         var y = this.position.y + randy;
                         context.beginPath();
-                        context.fillStyle = "#ff0000"; //blue
+                        context.fillStyle = "#db1d1d"; //blue
                         context.shadowBlur=4;
                         context.shadowColor="white";
-                        context.arc(x,y,1,0,Math.PI*2,true);
+                        context.arc(x,y,1.5,0,Math.PI*2,true);
                         context.fill();
                         context.closePath();
                 }
@@ -263,10 +262,10 @@
                         var x = this.position.x + randx;
                         var y = this.position.y + randy;
                         context.beginPath();
-                        context.fillStyle = "#ff0000"; //blue
+                        context.fillStyle = "#db1d1d"; //blue
                         context.shadowBlur=4;
                         context.shadowColor="white";
-                        context.arc(x,y,1,0,Math.PI*2,true);
+                        context.arc(x,y,1.5,0,Math.PI*2,true);
                         context.fill();
                         context.closePath();
                 }
@@ -491,7 +490,7 @@
 
                 // create the fill
 
-                context.fillStyle = '#ff0000';
+                context.fillStyle = '#db1d1d';
 
                 context.fill();
                 
